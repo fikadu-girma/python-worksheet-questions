@@ -15,7 +15,6 @@ for key, value in commissioned_salaried_employee.items():
     value.append(salary)
 print(value)
 
-
 print("Name \t\t Total_Salary")
 for key, value in commissioned_salaried_employee.items():
     print(key, "\t\t", value[3])
