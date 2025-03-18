@@ -1,7 +1,6 @@
 def binary(num):
     if num == 0:
         return "0"
-    
     binarys = ""
     while num > 0:
         binarys = str(num%2) + binarys
