@@ -9,5 +9,5 @@ def case_calculator(str):
     print(f"the number of uppercase is {upper}")
     print(f"the number of lowercase is {lower}")
 user = input("enter the string: ")
-result = case_calculator(user)
-print(result)
+results = case_calculator(user)
+print(results)
